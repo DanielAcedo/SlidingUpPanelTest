@@ -32,20 +32,14 @@
             android:text="Menu secundario"
             android:textSize="16sp" />
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:orientation="horizontal"
-            android:gravity="center|bottom"
-            >
+
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
                 android:orientation="vertical"
                 android:gravity="center|bottom"
                 android:background="@drawable/drawer"
-                android:layout_weight="1"
                 android:textSize="16sp">
                 <TextView
                     android:layout_width="match_parent"
@@ -54,24 +48,6 @@
                     android:gravity="center"
                     android:text="El primer menu"/>
             </LinearLayout>
-
-            <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-                android:layout_weight="1"
-            android:gravity="center|bottom"
-            android:background="@drawable/drawer"
-            android:textSize="16sp">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:textColor="@android:color/white"
-                android:gravity="center"
-                android:text="El segundo menu"/>
-        </LinearLayout>
-
-        </LinearLayout>
 
 
     </com.sothree.slidinguppanel.SlidingUpPanelLayout>
